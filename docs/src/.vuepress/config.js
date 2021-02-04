@@ -51,16 +51,26 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+      // '/guide/': [
+      //   {
+      //     title: 'Guide',
+      //     collapsable: false,
+      //     children: [
+      //       '',
+      //       'using-vue',
+      //     ]
+      //   }
+      // ],
+      // '/lols/': [
+      //   {
+      //     title: 'Lols',
+      //     collapsable: false,
+      //     children: [
+      //       '',
+      //       'using-vue-lol',
+      //     ]
+      //   }
+      // ],
     }
   },
 

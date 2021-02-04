@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master
+  repo: LazyLacey/vuepress
+  auth_endpoint: auth
+  api_root: https://api.github.com
+
+local_backend: true
+
+publish_mode: editorial_workflow
+
+media_folder: /.vuepress/public
+
+collections: 
+  - name: 'guide'
+    folder: "docs/src/guide"
+    label: 'Guide'
+    create: true
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Next", name: "next", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
